@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ClassOps Blog
+title: ClassOps
 subtitle: ''
 description: ''
 keywords:
 author: ClassOps
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -44,7 +44,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -97,11 +97,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: claudia
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:classops/classops.github.io.git
+  repo: https://github.com/classops/classops.github.io.git 
   branch: pages
